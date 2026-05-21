@@ -1,0 +1,204 @@
+body {
+    background-color: black; 
+    color: white; 
+    margin: 0;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+
+.logo{
+    width: 80px;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+.menu a{
+    color: white;
+
+    
+}
+
+.carritoCompra{
+    width: 50px;
+    
+}
+
+.titulo-principal{
+    text-align: center;
+}
+
+.nfsmw{
+    width: 200px;
+}
+
+.cyberpunk{
+    width: 180px;
+    text-align: left;
+}
+
+.SleepingDogs{
+    width: 140px;
+}
+
+.deepRock{
+    width: 180px;
+}
+
+.redDead2{
+    width: 180px;
+}
+
+
+.destacados {
+    display: flex;
+    justify-content: center; 
+    gap: 40px; 
+    margin-top: 20px;
+}
+.tarjeta p {
+    color: cyan; 
+}
+
+.tarjeta button {
+    background-color: green;
+    color: white;
+}
+
+.tarjeta{
+    width: 250px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid cyan;
+    border-radius: 10px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recientes{
+    display: flex;
+    gap: 200px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.recientes .tarjeta{
+    width: 180px;
+    height: 300px;
+    border: 3px solid red;
+}
+
+.nosotrosGeneral{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    padding:40px;
+}
+
+.nosotrosCaja{
+    width: 300px;
+    padding: 20px;
+    background-color: black;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+
+.ofertas{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+}
+
+.caja-oferta{
+    width: 220px;
+    padding: 20px;
+    background-color: black;
+    border: 3px solid gold;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+.descuento{
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.precio-viejo{
+    color:gray;
+
+}
+
+.precio-nuevo{
+    color: cyan;
+}
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.caja-categoria{
+    width: 250px;
+    padding: 20px;
+    border: 3px solid purple;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+.pagina-juego{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+
+}
+
+.imagen-principal{
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+.info-juego{
+    width: 400px;
+}
+
+.precio-juego{
+    color: cyan;
+    font-size: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    margin: 10px 0;
+}
